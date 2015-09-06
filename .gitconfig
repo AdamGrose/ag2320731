@@ -13,3 +13,7 @@
 	recentrepo = C:/Users/agros_000/Desktop/CIS17B_48597_ClassProject
 	recentrepo = C:/Users/agros_000/Desktop/push
 	recentrepo = C:/Users/agros_000/Desktop/projectPush
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
